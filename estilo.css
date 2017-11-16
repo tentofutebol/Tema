@@ -111,12 +111,12 @@ ul {
 }
 .processando i {
     font-size:90px;
-    color:#008000;
+    color:#009def;
 
 }
 .processando span:nth-child(2) {
     font-size:26px;
-    color:#008000;
+    color:#009def;
 }
 .processando span {
     display:block;
@@ -134,7 +134,7 @@ ul {
     border:1px solid #0066cc;
     line-height: 26px;
     padding: 0 5px;
-    color:#008000;
+    color:#fff;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 12px;
@@ -143,7 +143,7 @@ ul {
     width: 100px;
 }
 #BarraTopo .Caixa ul li .FormEntrar a {
-    color:#000080;
+    color:#fff;
     display: block;
     text-align: center;
     font-size: 12px;
@@ -200,7 +200,7 @@ ul {
 #BarraTopo .Caixa a.EntrarFace {
     float: right;
     display: block;
-    color:#008000;
+    color:#fff;
     text-decoration: none;
     padding:0 10px;
     line-height: 40px;
@@ -276,12 +276,12 @@ ul {
 #Menu .Caixa ul li ul li {
     display: block;
     float: none;
-    border-right: 0px solid #008000;
+    border-right: 0px solid #004088;
     border-bottom: 1px solid #333;
 }
 #Menu .Caixa ul li ul li:hover {
     background-image: none;
-    background-color: #008000;
+    background-color: #111;
 }
 #Menu .Caixa ul li ul li a {
     line-height: 24px;
@@ -295,15 +295,15 @@ ul {
 
     overflow: hidden;
     margin:0 auto;
-    background-color: #000080;
+    background-color: #FFFFFF;
     width: auto;
-    min-height: 400px;
+    min-height: 395px;
     border-left:1px solid #ccc;
     border-right:1px solid #ccc;
 }
 #Conteudo .Caixa {
     float: left;
-    width: 677px;
+    width: auto;
     padding:5px;
 }
 #Conteudo .Caixa .ColunaMaior {
@@ -315,7 +315,7 @@ ul {
 #Conteudo .Caixa .ColunaMaior a.Titulo {
     text-decoration: none;
     text-transform: uppercase;
-    color:#000080;
+    color:#222;
     font-weight: bold;
     font-size: 14px;
     display: block;
@@ -452,7 +452,7 @@ ul {
 #Conteudo .Caixa .BoxLogin a.facebook {
     display:block;
     text-align:center;
-    background:#008000;
+    background:#3b5998;
     color:#fff;
     text-decoration:none;
     font-size:14px;
@@ -532,14 +532,14 @@ ul {
     width: 100%;
     background-image: url(../imagens/dark_stripes.png);
     float: left;
-    color:#000080;
+    color:#fff;
     line-height: 30px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
 }
 #Conteudo .Caixa .NomeDuplaCol i {
-    color: #008000;
+    color: #0066cc;
 }
 #Conteudo .Caixa .NomeDuplaCol .left {
     width: 330px;
@@ -581,7 +581,7 @@ ul {
     border-bottom: 1px solid #ccc;
 }
 #Conteudo #Lateral ul.ParceirosLink li:hover {
-    background-color: #008000;
+    background-color: #fff;
 }
 #Conteudo #Lateral ul.ParceirosLink li a {
     display: block;
@@ -630,7 +630,7 @@ ul {
 }
 #Conteudo .Caixa .ListaCategoria .Linha .sub {
     font-size: 13px;
-    color:#008000;
+    color:#999;
     width: 430px;
     padding: 0 10px;
     float: right;
@@ -640,8 +640,8 @@ ul {
     width: 100%;
 }
 #Conteudo .Caixa .ias_trigger a {
-    background-color: #008000;
-    color:#008000;
+    background-color: #0066cc;
+    color:#fff;
     padding: 0px 20px;
     display: block;
     -webkit-border-radius: 5px;
@@ -659,7 +659,7 @@ ul {
     transition:all 0.4s linear;
 }
 #Conteudo .Caixa .ias_trigger a:hover {
-    background-color:#008000;
+    background-color:#004890;
     transition:all 0.4s linear;
 }
 #Conteudo .Caixa #Player {
@@ -667,7 +667,7 @@ ul {
     width: 100%;
 position:relative;
     min-height: 360px;
-    background-color: #008000;
+    background-color: #222;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -680,12 +680,12 @@ margin: 0 auto;
 #Conteudo .Caixa #Player .LoginPlayer {
     width: 175px;
     margin: 20px auto;
-    background-color: #008000;
+    background-color: #111;
     padding: 10px;
 }
 #Conteudo .Caixa #Player .LoginPlayer .Face {
-    background-color: #008000;
-    color: #008000;
+    background-color: #004088;
+    color: #fff;
     height: 30px;
     padding: 0 5px;
     line-height: 30px;
@@ -693,25 +693,25 @@ margin: 0 auto;
 }
 #Conteudo .Caixa #Player .LoginPlayer span {
     font-size: 16px;
-    color:#008000;
+    color:#555;
     display: block;
     text-align: center;
     font-weight: bold;
 }
 #Conteudo .Caixa #Player .TextoPlayer {
     text-align: center;
-    color:#008000;
+    color:#fff;
     margin: 20px 0;
     font-size: 16px;
     font-weight: bold;
     text-transform: uppercase;
 }
 #Conteudo .Caixa #Player .TextoPlayer b {
-    color: #008000;
+    color: #33cc00;
 }
 #Conteudo .Caixa #Player i.fa-play {
 font-size:70px;
-color:#008000;
+color:#fff;
 position: absolute;
 left:50%;
 margin-left:-27.5px;
@@ -728,7 +728,7 @@ margin-left:-37.75px;
 margin-top:-50px;
 }
 #Conteudo .Caixa #Player .LoginPlayer label {
-    color:#008000;
+    color:#fff;
     font-size: 12px;
     font-weight: bold;
     padding: 0 5px;
@@ -765,7 +765,7 @@ margin-top:-50px;
     border:1px solid #0066cc;
     line-height: 26px;
     padding: 0 5px;
-    color:#008000;
+    color:#fff;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 12px;
@@ -774,7 +774,7 @@ margin-top:-50px;
     width: 100px;
 }
 #Conteudo .Caixa #Player .LoginPlayer a {
-    color:#008000;
+    color:#fff;
     display: block;
     text-align: center;
     font-size: 12px;
@@ -788,7 +788,7 @@ margin-top:-50px;
 text-align:center;
     padding: 10px;
     font-size: 12px;
-    color:#008000;
+    color:#999;
 }
 #Conteudo .Caixa .Download {
 text-align:center;
@@ -799,7 +799,7 @@ width:100%;
 display:block;
 width:200px;
 color:#fff;
-background-color:#008000;
+background-color:#0066cc;
 height:40px;
 line-height:40px;
 font-size:16px;
@@ -813,7 +813,7 @@ border-radius: 5px;
 transition:all 0.5s linear;
 }
 #Conteudo .Caixa .Download a:hover {
-background-color:#008000;
+background-color:#004d9a;
 transition:all 0.5s linear;
 }
 #Conteudo .Caixa .TextoPostagem {
@@ -856,7 +856,7 @@ transition:all 0.5s linear;
     height: 40px;
 }
 #Conteudo .Caixa .ProAnt a:hover {
-    background-color: #008000;
+    background-color: #000;
 }
 #Conteudo .Caixa .LinksRelacionados  {
     float: left;
@@ -865,7 +865,7 @@ transition:all 0.5s linear;
 #Conteudo .Caixa .LinksRelacionados span {
     display: block;
     height: 40px;
-    color: #008000;
+    color: #999;
     font-weight: bold;
     text-transform: uppercase;
     font-size: 18px;
@@ -934,7 +934,7 @@ height:40px;
 background-image: url(../imagens/bg-menu-over.png);
 }
 #Conteudo .Caixa div.menuplayer ul li a {
-color:#008000;
+color:#fff;
 padding:0 10px;
 font-weight:bold;
 text-align:center;
@@ -946,7 +946,7 @@ text-decoration:none;
 text-transform:uppercase;
 }
 #Conteudo .Caixa div.menuplayer ul li.escolha {
-color:#008000;
+color:#fff;
 padding:0 10px;
 font-weight:bold;
 height:40px;
@@ -997,7 +997,7 @@ cursor:default;
     display: block;
     height: 40px;
     line-height: 40px;
-    color:#008000;
+    color:#fff;
     font-weight: bold;
     text-transform: uppercase;
     padding:  0 10px;
