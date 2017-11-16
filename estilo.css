@@ -295,7 +295,7 @@ ul {
 
     overflow: hidden;
     margin:0 auto;
-    background-color: #FFFFFF;
+    background-color: #008000;
     width: auto;
     min-height: 395px;
     border-left:1px solid #ccc;
@@ -666,7 +666,7 @@ ul {
     float: left;
     width: 100%;
 position:relative;
-    min-height: 360px;
+    min-height: 380px;
     background-color: #222;
     -webkit-background-size: cover;
     -moz-background-size: cover;
