@@ -1,0 +1,1019 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+*{font-family: 'Open Sans', sans-serif;}
+body {
+    margin:0;
+    padding:0;
+    background-image: url(../imagens/cross_scratches.png);
+}
+a img {
+    outline: none;
+}
+img {
+    outline: none;
+}
+ul {
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+#Cabecario {
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    background-image: url(../imagens/dark_stripes.png);
+}
+#Cabecario .Caixa {
+    position: relative;
+    width: 1000px;
+    display: block;
+    margin: 0 auto;
+}
+#Cabecario .Caixa .Logo {
+    width: 159px;
+    position: absolute;
+    height: 159px;
+    left:30px;
+    top: -29.5px;
+    z-index: 2;
+}
+#Cabecario .Caixa .Publicidade728 {
+    width: 728px;
+    height: 90px;
+    margin: 5px 30px;
+    background-color: #f2f2f2;
+    float: right;
+}
+#BarraTopo {
+    height: 40px;
+    background-color: #222;
+    width: 100%;
+    background-image: url(../imagens/bg-menu.png);
+}
+#BarraTopo .Caixa {
+    border-right: 1px solid #004088;
+    width: 999px;
+    margin:0 auto;
+    height: 40px;
+    position: relative;
+}
+#BarraTopo .Caixa ul li .FormEntrar {
+    position: absolute;
+    right:0;
+    border: 2px solid #004088;
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    top:40px;
+    width: 170px;
+    z-index: 2;
+    background-color: #222;
+    display: none;
+}
+#BarraTopo .Caixa ul li:hover .FormEntrar {
+    display: block;
+}
+#BarraTopo .Caixa ul li .FormEntrar label {
+    color:#fff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0 5px;
+    text-transform: uppercase;
+}
+#BarraTopo .Caixa ul li .FormEntrar input[type="text"] {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin: 0 auto;
+    display: block;
+    border:1px solid #ccc;
+    line-height: 26px;
+    padding: 0 5px;
+    width: 150px;
+}
+#BarraTopo .Caixa ul li .FormEntrar input[type="password"] {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin: 0 auto;
+    display: block;
+    border:1px solid #ccc;
+    line-height: 26px;
+    padding: 0 5px;
+    width: 150px;
+}
+.processando {
+    padding: 100px 0 0 0;
+    color:#fff;
+    text-align:center;
+}
+.processando i {
+    font-size:90px;
+    color:#009def;
+
+}
+.processando span:nth-child(2) {
+    font-size:26px;
+    color:#009def;
+}
+.processando span {
+    display:block;
+    text-align:center;
+    font-weight:bold;
+    text-transform:uppercase;
+    font-size:18px;
+}
+#BarraTopo .Caixa ul li .FormEntrar input[type="submit"] {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin: 8px auto;
+    display: block;
+    border:1px solid #0066cc;
+    line-height: 26px;
+    padding: 0 5px;
+    color:#fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+    background-color: #0066cc;
+    width: 100px;
+}
+#BarraTopo .Caixa ul li .FormEntrar a {
+    color:#fff;
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 4px;
+}
+#BarraTopo .Caixa .Busca {
+    float: right;
+    height: 40px;
+}
+#BarraTopo .Caixa .Busca input[type='text'] {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border:1px solid #ccc;
+    padding: 0 4px;
+    line-height: 26px;
+    margin: 6px 0;
+    outline: none;
+}
+#BarraTopo .Caixa .Busca input[type='submit'] {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #222;
+    border:1px solid #333;
+    color:#fff;
+    padding:0 6px;
+    margin-right: 10px;
+    line-height: 27px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#BarraTopo .Caixa .Busca input[type='submit']:hover {
+    background-color: #111;
+}
+#BarraTopo .Caixa a.Entrar {
+    display: block;
+    color:#fff;
+    text-decoration: none;
+    padding:0 10px;
+    line-height: 40px;
+    height: 40px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    float: right;
+    border-left: 1px solid #004088;
+}
+#BarraTopo .Caixa a.EntrarFace {
+    float: right;
+    display: block;
+    color:#fff;
+    text-decoration: none;
+    padding:0 10px;
+    line-height: 40px;
+    height: 40px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    border-left: 1px solid #004088;
+}
+#BarraTopo .Caixa a.Entrar:hover {
+    background-image: url(../imagens/bg-menu-over.png);
+}
+#BarraTopo .Caixa a.EntrarFace:hover {
+    background-image: url(../imagens/bg-menu-over.png);
+}
+#Menu {
+    height: 40px;
+    background-color: #222;
+    width: 100%;
+    background-image: url(../imagens/bg-menu.png);
+}
+#Menu .Caixa {
+    width: 1000px;
+    height: 40px;
+    margin: 0 auto;
+}
+#Menu .Caixa ul {
+    border-left: 1px solid #004088;
+    width: 819px;
+    float: right;
+}
+#Menu .Caixa ul li {
+    position: relative;
+    float: left;
+    border-right: 1px solid #004088;
+}
+#Menu .Caixa ul li:hover {
+    background-image: url(../imagens/bg-menu-over.png);
+}
+#Menu .Caixa ul li a {
+    display: block;
+    color:#fff;
+    text-decoration: none;
+    padding:0 10px;
+    line-height: 40px;
+    height: 40px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+#Menu .Caixa ul li ul {
+    position: absolute;
+    width: 170px;
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    overflow: hidden;
+    display: none;
+    z-index:20;
+    background-color: #222;
+    top: 40px;
+    left: 0;
+    border: 2px solid #004088;
+}
+#Menu .Caixa ul li:hover ul {
+    display: block;
+}
+#Menu .Caixa ul li ul li {
+    display: block;
+    float: none;
+    border-right: 0px solid #004088;
+    border-bottom: 1px solid #333;
+}
+#Menu .Caixa ul li ul li:hover {
+    background-image: none;
+    background-color: #111;
+}
+#Menu .Caixa ul li ul li a {
+    line-height: 24px;
+    height: 24px;
+    font-size: 11px;
+    text-align: left;
+    font-weight: normal;
+}
+#Conteudo {
+    background: url(../imagens/bg_conteudo.png) repeat-y right;
+
+    overflow: hidden;
+    margin:0 auto;
+    background-color: #fff;
+    width: 677px;
+    min-height: 400px;
+    border-left:1px solid #ccc;
+    border-right:1px solid #ccc;
+}
+#Conteudo .Caixa {
+    float: left;
+    width: 677px;
+    padding:5px;
+}
+#Conteudo .Caixa .ColunaMaior {
+    width: 296px;
+    border-right:1px solid #ccc;
+    padding-right: 5px;
+    float: left;
+}
+#Conteudo .Caixa .ColunaMaior a.Titulo {
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#222;
+    font-weight: bold;
+    font-size: 14px;
+    display: block;
+    text-align:left;
+    padding:5px;
+    line-height: 20px;
+}
+#Conteudo .Caixa .ColunaMaior a.Titulo:hover {
+    text-decoration: underline;
+}
+#Conteudo .Caixa .ColunaMaior .Imagem {
+    padding: 2px;
+    border:1px solid #ccc;
+}
+#Conteudo .Caixa .ColunaMaior .Imagem img {
+    display: block;
+}
+#Conteudo .Caixa .ColunaMenor {
+    float: left;
+    width: 365px;
+    padding: 0 5px;
+}
+#Conteudo .Caixa .ColunaMenor .Linha {
+    width: 370px;
+    display: table;
+    position: relative;
+    padding: 5px 0;
+    border-bottom: 1px solid #ccc;
+}
+#Conteudo .Caixa .ColunaMenor .Imagem {
+    padding: 2px;
+    width: 100px;
+    border:1px solid #ccc;
+    float: left;
+    top: 50%;
+    margin-top: -30px;
+    position: absolute;
+}
+#Conteudo .Caixa .ColunaMenor .Imagem img {
+    display: block;
+    width: 100%;
+}
+#Conteudo .Caixa .ColunaMenor a.Titulo {
+    display: block;
+    width: 250px;
+    float: right;
+    padding: 12px 5px;
+    color:#222;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 18px;
+}
+#Conteudo .Caixa .ColunaMenor a.Titulo:hover {
+    text-decoration: underline;
+}
+#Conteudo .ColunaMae {
+    width: 333.5px;
+    float: left;
+    padding-right: 5px;
+    margin: 5px 0;
+}
+#Conteudo .ColunaMae .Destaque {
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+}
+#Conteudo .ColunaMae .Destaque .Imagem {
+    padding: 2px;
+    border:1px solid #ccc;
+}
+#Conteudo .ColunaMae .Destaque .Imagem img {
+    width: 100%;
+    display: block;
+}
+#Conteudo .ColunaMae .Destaque a.Titulo {
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#222;
+    font-weight: bold;
+    font-size: 14px;
+    display: block;
+    text-align:left;
+    padding:5px;
+    line-height: 20px;
+}
+#Conteudo .ColunaMae .Destaque a.Titulo:hover {
+    text-decoration: underline;
+}
+#Conteudo .ColunaMae .Linha {
+    width: 333.5px;
+    display: table;
+    position: relative;
+    padding: 5px 0;
+    border-bottom: 1px solid #ccc;
+}
+#Conteudo .ColunaMae .Linha .Imagem {
+    padding: 2px;
+    width: 100px;
+    border:1px solid #ccc;
+    float: left;
+    top: 50%;
+    margin-top: -30px;
+    position: absolute;
+}
+#Conteudo .ColunaMae .Linha .Imagem img {
+    display: block;
+    width: 100%;
+}
+#Conteudo .ColunaMae .Linha a.Titulo {
+    width: 217px;
+    display: block;
+    float: right;
+    padding: 12px 5px;
+    color: #222;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 18px;
+}
+#Conteudo .ColunaMae .Linha a.Titulo:hover {
+    text-decoration: underline;
+}
+#Conteudo .Caixa .BoxLogin {
+    text-align:center;
+}
+#Conteudo .Caixa .BoxLogin span {
+    display:block;
+}
+#Conteudo .Caixa .BoxLogin a.facebook i {
+    z-index:0;
+}
+#Conteudo .Caixa .BoxLogin a.facebook {
+    display:block;
+    text-align:center;
+    background:#3b5998;
+    color:#fff;
+    text-decoration:none;
+    font-size:14px;
+    font-weight:bold;
+    width:300px;
+    margin:0 auto;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding:10px 0;
+}
+#Conteudo .Caixa .BoxLogin a.entrarse {
+    display:block;
+    text-align:center;
+    color:#222;
+    font-size:14px;
+    font-weight:bold;
+    width:300px;
+    margin:0 auto;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding:10px 0;
+}
+#Conteudo .Caixa .BoxLogin label {
+    display:block;
+    margin:5px 0;
+}
+#Conteudo .Caixa .BoxLogin .BoxSexo label {
+    display:inline;    
+}
+#Conteudo .Caixa .BoxLogin span {
+    font-size:26px;
+    font-weight:bold;
+    margin:10px 0;
+}
+#Conteudo .Caixa .BoxLogin input[type="submit"] {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border:1px solid #333;
+    width:300px;    
+    font-size:14px;
+    color:#fff;
+    transition:all 0.4s linear;
+    background:#222;
+    padding:10px 0;
+    font-weight:bold;
+    cursor:pointer;
+    margin-top:10px;
+}
+#Conteudo .Caixa .BoxLogin input[type="text"] {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border:1px solid #ccc;
+    width:290px;    
+    height:32px;
+    font-size:14px;
+    padding:0 5px;
+    transition:all 0.4s linear;
+}
+#Conteudo .Caixa .BoxLogin input[type="password"] {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border:1px solid #ccc;
+    width:290px;    
+    height:32px;
+    font-size:14px;
+    padding:0 5px;
+    transition:all 0.4s linear;
+}
+#Conteudo .Caixa .NomeDuplaCol {
+    margin:5px 0 0;
+    width: 100%;
+    background-image: url(../imagens/dark_stripes.png);
+    float: left;
+    color:#fff;
+    line-height: 30px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+#Conteudo .Caixa .NomeDuplaCol i {
+    color: #0066cc;
+}
+#Conteudo .Caixa .NomeDuplaCol .left {
+    width: 330px;
+    float: left;
+    padding-left:10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+#Conteudo .Caixa .NomeDuplaCol h1 {
+    padding-left:10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin:5px 0;
+}
+#Conteudo .Caixa .NomeDuplaCol .right {
+    width: 320px;
+    float: left;
+    padding-left:10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+#Conteudo #Lateral {
+    width: 300px;
+    padding: 0 5px;
+    float: right;
+    border-left: 1px solid #ccc;
+}
+#Conteudo #Lateral .Titulo {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    border-bottom: 1px solid #ccc;
+    line-height: 30px;
+}
+#Conteudo #Lateral ul.ParceirosLink li {
+    border-bottom: 1px solid #ccc;
+}
+#Conteudo #Lateral ul.ParceirosLink li:hover {
+    background-color: #fff;
+}
+#Conteudo #Lateral ul.ParceirosLink li a {
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    height: 25px;
+    line-height: 25px;
+    color:#222;
+    padding: 0 10px;
+    text-decoration: none;
+}
+#Conteudo .Caixa .ListaCategoria {
+    border-top: 1px solid #ccc;
+}
+#Conteudo .Caixa .ListaCategoria .Linha {
+    border-bottom: 1px solid #ccc;
+    float: left;
+    height: 138px;
+}
+#Conteudo .Caixa .ListaCategoria .Linha .Imagem {
+    width: 220px;
+    padding: 2px;
+    border:1px solid #ccc;
+    float: left;
+    margin: 5px 0;
+    height: 121px;
+}
+#Conteudo .Caixa .ListaCategoria .Linha .Imagem img {
+    width: 220px;
+    display: block;
+    height: 121px;
+}
+#Conteudo .Caixa .ListaCategoria .Linha a.Titulo {
+    width: 430px;
+    padding: 10px;
+    float: right;
+    color:#222;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+#Conteudo .Caixa .ListaCategoria .Linha a.Titulo:hover {
+    text-decoration: underline;
+}
+#Conteudo .Caixa .ListaCategoria .Linha .sub {
+    font-size: 13px;
+    color:#999;
+    width: 430px;
+    padding: 0 10px;
+    float: right;
+}
+#Conteudo .Caixa .ias_trigger{
+    float: left;
+    width: 100%;
+}
+#Conteudo .Caixa .ias_trigger a {
+    background-color: #0066cc;
+    color:#fff;
+    padding: 0px 20px;
+    display: block;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-align: center;
+    width: 200px;
+    margin:10px auto;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    transition:all 0.4s linear;
+}
+#Conteudo .Caixa .ias_trigger a:hover {
+    background-color:#004890;
+    transition:all 0.4s linear;
+}
+#Conteudo .Caixa #Player {
+    float: left;
+    width: 100%;
+position:relative;
+    min-height: 360px;
+    background-color: #222;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#Conteudo .Caixa #Player iframe {
+margin: 0 auto;
+    display: block;
+}
+#Conteudo .Caixa #Player .LoginPlayer {
+    width: 175px;
+    margin: 20px auto;
+    background-color: #111;
+    padding: 10px;
+}
+#Conteudo .Caixa #Player .LoginPlayer .Face {
+    background-color: #004088;
+    color: #fff;
+    height: 30px;
+    padding: 0 5px;
+    line-height: 30px;
+    text-decoration: none;
+}
+#Conteudo .Caixa #Player .LoginPlayer span {
+    font-size: 16px;
+    color:#555;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+#Conteudo .Caixa #Player .TextoPlayer {
+    text-align: center;
+    color:#fff;
+    margin: 20px 0;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#Conteudo .Caixa #Player .TextoPlayer b {
+    color: #33cc00;
+}
+#Conteudo .Caixa #Player i.fa-play {
+font-size:70px;
+color:#fff;
+position: absolute;
+left:50%;
+margin-left:-27.5px;
+top:50%;
+margin-top:-35px;
+cursor:pointer;
+transition:all 0.6s linear;
+}
+#Conteudo .Caixa #Player i.fa-play:hover {
+transition:all 0.6s linear;
+font-size:100px;
+text-shadow: 0px 0px 30px rgba(0, 121, 217, 1);
+margin-left:-37.75px;
+margin-top:-50px;
+}
+#Conteudo .Caixa #Player .LoginPlayer label {
+    color:#fff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0 5px;
+    text-transform: uppercase;
+}
+#Conteudo .Caixa #Player .LoginPlayer input[type="text"] {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin: 0 auto;
+    display: block;
+    border:1px solid #ccc;
+    line-height: 26px;
+    padding: 0 5px;
+    width: 150px;
+}
+#Conteudo .Caixa #Player .LoginPlayer input[type="password"] {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin: 0 auto;
+    display: block;
+    border:1px solid #ccc;
+    line-height: 26px;
+    padding: 0 5px;
+    width: 150px;
+}
+#Conteudo .Caixa #Player .LoginPlayer input[type="submit"] {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin: 8px auto;
+    display: block;
+    border:1px solid #0066cc;
+    line-height: 26px;
+    padding: 0 5px;
+    color:#fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+    background-color: #0066cc;
+    width: 100px;
+}
+#Conteudo .Caixa #Player .LoginPlayer a {
+    color:#fff;
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 4px;
+}
+#Conteudo .Caixa .Tags {
+    display: block;
+    float: left;
+text-align:center;
+    padding: 10px;
+    font-size: 12px;
+    color:#999;
+}
+#Conteudo .Caixa .Download {
+text-align:center;
+float:left;
+width:100%;
+}
+#Conteudo .Caixa .Download a {
+display:block;
+width:200px;
+color:#fff;
+background-color:#0066cc;
+height:40px;
+line-height:40px;
+font-size:16px;
+font-weight:bold;
+text-transform:uppercase;
+text-decoration:none;
+margin:8px auto;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+transition:all 0.5s linear;
+}
+#Conteudo .Caixa .Download a:hover {
+background-color:#004d9a;
+transition:all 0.5s linear;
+}
+#Conteudo .Caixa .TextoPostagem {
+    font-size: 14px;
+    color: #000;
+    padding: 10px;
+    float: left;
+    display: block;
+}
+#Conteudo .Caixa .ProAnt {
+    height: 40px;
+    float: left;
+    background-color: #111;
+    width: 100%;
+}
+#Conteudo .Caixa .ProAnt .left {
+    float:left;
+    display: block;
+    padding: 0 10px;
+    border-right: 1px solid #222;
+    color:#fff;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    line-height: 40px;
+    font-weight: bold;
+    height: 40px;
+}
+#Conteudo .Caixa .ProAnt .right {
+    float:right;
+    display: block;
+    line-height: 40px;
+    padding: 0 10px;
+    border-left: 1px solid #222;
+    color:#fff;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    height: 40px;
+}
+#Conteudo .Caixa .ProAnt a:hover {
+    background-color: #000;
+}
+#Conteudo .Caixa .LinksRelacionados  {
+    float: left;
+    width: 100%;
+}
+#Conteudo .Caixa .LinksRelacionados span {
+    display: block;
+    height: 40px;
+    color: #999;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+}
+#Conteudo .Caixa .LinksRelacionados a {
+    display: block;
+    height: 20px;
+    color: #777;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: center;
+}
+#Conteudo .Caixa .Erro404 .Maior {
+    font-size:150px;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    color: #999;
+    margin: 0;
+    padding: 0;
+}
+#Conteudo .Caixa .Erro404 .Menor {
+    font-size:24px;
+    display: block;
+    text-align: center;
+    color: #999;
+}
+#Conteudo .Caixa .Erro404 a {
+    display: block;
+    text-align: center;
+    width: 200px;
+    background-color: #999;
+    color:#fff;
+    text-decoration: none;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 10px auto;
+}
+#Conteudo .Caixa div.menuplayer {
+margin:0;
+padding:0;
+width:100%;
+text-align:center;
+background-image: url(../imagens/bg-menu.png);
+line-height: 40px;
+float:left;
+display:none;
+}
+#Conteudo .Caixa div.menuplayer ul {
+display:table;
+margin:0 auto;
+}
+#Conteudo .Caixa div.menuplayer ul li {
+float:left;
+border-right:1px solid #004088;
+height:40px;
+}
+#Conteudo .Caixa div.menuplayer ul li a.ativo {
+background-image: url(../imagens/bg-menu-over.png);
+}
+#Conteudo .Caixa div.menuplayer ul li a {
+color:#fff;
+padding:0 10px;
+font-weight:bold;
+text-align:center;
+height:40px;
+display:block;
+line-height:40px;
+font-size:12px;
+text-decoration:none;
+text-transform:uppercase;
+}
+#Conteudo .Caixa div.menuplayer ul li.escolha {
+color:#fff;
+padding:0 10px;
+font-weight:bold;
+height:40px;
+float: left;
+text-align:center;
+font-size:12px;
+text-decoration:none;
+text-transform:uppercase;
+}
+#Conteudo .Caixa div.menuplayer ul li.escolha:hover {
+background-image:none;
+cursor:default;
+}
+#Conteudo .Caixa div.menuplayer ul li:hover {
+    background-image: url(../imagens/bg-menu-over.png);
+}
+#Rodape {
+    background-image: url(../imagens/bg-rodape.png);
+    width: 100%;
+    height: 40px;
+}
+#Rodape .Caixa {
+    position: relative;
+    width: 999px;
+    border-right: 1px solid #333;
+    margin:0 auto;
+    height: 40px;
+}
+#Rodape .Caixa .PX {
+    padding: 9.5px 10px;
+    float: left;
+}
+#Rodape .Caixa .PX img {
+    display: block;
+}
+#Rodape .Caixa ul {
+    width: 300px;
+    float: right;
+}
+#Rodape .Caixa ul li {
+    float: right;
+    border-left:1px solid #333;
+}
+#Rodape .Caixa ul li:hover {
+    background-image: url(../imagens/bg-rodape-over.png);
+}
+#Rodape .Caixa ul li a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color:#fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding:  0 10px;
+    text-decoration: none;
+    font-size: 12px;
+}
+#Rodape .Caixa .Direitos {
+    position: absolute;
+    width: 799px;
+    left:100px;
+    top:0;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+    color:#fff;
+    text-align: center;
+    line-height: 40px;
+}
